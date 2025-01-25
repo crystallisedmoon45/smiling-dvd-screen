@@ -1,0 +1,34 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="Hd)YANR]{fOXjC007hb$">Player</variable><variable type="KIND_SpriteKind" id="oJMVmQ(i||||0ZDFB3Z5">Projectile</variable><variable type="KIND_SpriteKind" id="4@%@O{uC[tOQMWU[@|la">Food</variable><variable type="KIND_SpriteKind" id=".6SJG7jEN(@ZuVPIN|HL">Enemy</variable><variable id="Bcfv:HNC4.:(IR7PKxd:">mySprite</variable><variable id="Sf(xyUU_Sw9;y{{kprF1">mySprite2</variable></variables><block type="pxt-on-start" id="2nmfAw/~Cgh?SIEY!p@T" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="5h5Qb9GXb2`46Y~Iy|6Y"><field name="VAR" id="Sf(xyUU_Sw9;y{{kprF1">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="W(/=AA_(WWJ5tK{DzJ2o"><value name="img"><shadow type="screen_image_picker" id="~TM,qd}7lmlBa3]hSK=#"><field name="img">img`
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+fffff11111ffffffffffff11111fffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+ff11111fffffffffffffffffff11111f
+ff111111fffffffffffffffff111111f
+ff1111111fffffffffffffff1111111f
+ff11111111ffffffffffffff1111111f
+ff111111111ffffffffffff11111111f
+fff111111111ffffffffff111111111f
+fff111111111fffffffff111111111ff
+ffff111111111fffffff111111111fff
+fffff111111111111111111111111fff
+ffffff1111111111111111111111ffff
+fffffff11111111111111111111fffff
+fffffff1111111111111111111ffffff
+ffffffff11111111111111111fffffff
+fffffffffff11111111fffffffffffff
+ffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~TM,qd}7lmlBa3]hSK=#"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="n.z*_=Xl7NjIk}YhjJ$a"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="_K;%|,M{G_3tc!m1:X`0"><field name="property">Sprite.vx@set</field><value name="mySprite"><block type="variables_get" id="|Dz53q5WOAqXMr_B7I{;"><field name="VAR" id="Sf(xyUU_Sw9;y{{kprF1">mySprite2</field></block></value><value name="value"><shadow type="math_number" id="x%qgnCA{Vm^i]eUxM!WK"><field name="NUM">40</field></shadow></value><next><block type="Sprite_blockCombine_set" id="s/wlg%M9Byc0k3:U-.FM"><field name="property">Sprite.vy@set</field><value name="mySprite"><block type="variables_get" id="jv/S]j}L~J4O-_OrL[#z"><field name="VAR" id="Sf(xyUU_Sw9;y{{kprF1">mySprite2</field></block></value><value name="value"><shadow type="math_number" id="?`Z6/NYPt*od9Jnf$N,O"><field name="NUM">60</field></shadow></value><next><block type="spritesetsetbounceonwall" id="!Wa1!ig]#;~R]*`/Krrm"><value name="sprite"><block type="variables_get" id="U]p.d;t9+K!B-{OQwH=y"><field name="VAR" id="Sf(xyUU_Sw9;y{{kprF1">mySprite2</field></block></value><value name="on"><shadow type="toggleOnOff" id="F6DB|=*a8]vp2M,2zE*y"><field name="on">true</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="FA2{zUM[krC(rf{Zd]C4" x="670" y="194"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gameSplash" id="rG8dz-WbK;{_604G4sDw"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="N1qC3BY=ksDNIRYtc$_J"><field name="TEXT">you cant use a controller in this dvd screen!</field></shadow></value><value name="subtitle"><shadow type="text" id="]?CqRLM/$C^DaEP9eLD("><field name="TEXT"></field></shadow></value></block></statement></block><block type="keyonevent" id="QNn*}GCj`ZWB)KF$sHkJ" x="70" y="394"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gameSplash" id="0Ih|{)p?v3Uq4RHhSZ7("><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="6!`xu$uxw*rn$utt48}g"><field name="TEXT">you cant use a controller in this dvd screen!</field></shadow></value><value name="subtitle"><shadow type="text" id="LhXZX`Fy]C]Ia3#Bc~9;"><field name="TEXT"></field></shadow></value></block></statement></block><block type="keyonevent" id="QhVr:4UE6d}th,^O!fx_" x="670" y="374"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gameSplash" id="oTS(@1I9#*`FF;z56(RT"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="/,_|*9K%Wvl*!1Y]}}_K"><field name="TEXT">you cant use a controller in this dvd screen!</field></shadow></value><value name="subtitle"><shadow type="text" id="|1{h5,hL?F7wmSn~VYLy"><field name="TEXT"></field></shadow></value></block></statement></block><block type="keyonevent" id="@#7$})oslrk|*|I+!7o{" x="530" y="554"><field name="button">controller.down</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="gameSplash" id="),../FTD||~3pcIUjab#"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="@RGHH?;GPT]*_RRhUG@m"><field name="TEXT">you cant use a controller in this dvd screen!</field></shadow></value><value name="subtitle"><shadow type="text" id="0ft9]AozfxTyB^`bq,;*"><field name="TEXT"></field></shadow></value></block></statement></block></xml>
